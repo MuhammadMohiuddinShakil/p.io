@@ -1,19 +1,642 @@
-<!doctype html> 
-<html> 
-  <head>     
-    <meta charset="utf-8">     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <title>List Item Hover Effects</title>     
-    <link rel="stylesheet" href="style.css"> 
-  </head> 
-  <body>     
-    <ul>         
-      <li><a href="#" data-text="Home">Home</a></li>         
-      <li><a href="#" data-text="About">About</a></li>         
-      <li><a href="#" data-text="Services">Services</a></li>         
-      <li><a href="#" data-text="Work">Work</a></li>         
-      <li><a href="#" data-text="Team">Team</a></li>         
-      <li><a href="#" data-text="Contact">Contact</a></li>     
-    </ul> 
-  </body> 
-  </html> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Muhammad Mohiuddin</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <header id="header">
+    <div class="container">
+      
+      <h1><a href="index.html">Muhammad Mohiuddin</a></h1>
+      <h2>I'm a passionate Web developer from Bangladesh</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Skills</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    
+
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" >
+          <h3 style="padding-top: 100px;">UI/UX &amp; Web developer</h3>
+          <p>
+            Assalamulaykum hopefully, you are well by the grace of almighty ALLAH. I have completed my bachelor's recently. I believe that you don't need to be very good at something, You only need to be enthusiastic about it that will be enough to reach your goal.           </p>
+       
+        </div>
+        <div class="section-title"  style="padding-top: 130px;">
+          <h2>Why Web?</h2>
+        </div>
+        <p>
+          I was so frustrated at the beginning about my bachelor's in computer science and engineering. The main reason was I didn't find anything that was enjoyable for me. Though I do love courses like AI, ML I really didn't find very eye-catching instant output. Then course comes like database management system, software engineering, digital system design, web programming, and all of a sudden I was like ok this is cool. In my perspective software engineering are kind of fun and enjoyable especially the 'front end'. I find that joy that I was looking for within those subjects. It gives me an eye-catching visual presentation instantly and I can see what I have done. Finally, I found what I was looking for. It doesn't matter what are you doing, whether you enjoy your work or not that matters. 
+        </p>
+      </div>
+
+    </div><!-- End About Me -->
+
+
+     <!-- ======= strength ======= -->
+     <div class="interests container" style="padding-top: 100px;">
+
+      <div class="section-title">
+        <h2>Strength</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-service-line"style="color: #ffbb2c;"></i>
+            <h3>Communication</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #2fe992;"></i>
+            <h3>Colaboration</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #5578ff;"></i>
+            <h3>Research</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-heart-add-line" style="color: #e361ff;"></i>
+            <h3>Love of learning</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-lightbulb-flash-line" style="color: #47aeff;"></i>
+            <h3>Creative</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3>Self-motivated</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3>Problem solving</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3>Fast learner</h3>
+          </div>
+        </div>
+      
+      
+      
+      </div>
+
+    </div><!-- End strength -->
+
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container" style="padding-top: 100px;">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+            <h3>Particle.js</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>Anime.js</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+            <h3>Graph</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3>Aretificial inteligence</h3>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3>Skatch</h3>
+          </div>
+        </div>
+        
+      </div>
+
+    </div><!-- End Interests -->
+
+     <!-- ======= hobby ======= -->
+     <div class="interests container" style="padding-top: 100px;">
+
+      <div class="section-title">
+        <h2>Hobby</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <h3>Cricket</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <h3>Badminton</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <h3>Ping pong</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <h3>Cycling</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <h3>Gardening</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <h3>Cooking</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <h3>Traveling</h3>
+          </div>
+        </div>
+       
+      </div>
+
+    </div><!-- End hobby -->
+
+
+
+  </section><!-- End About Section -->
+
+
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Muhammad Mohiuddin</h4>
+            <p>Assalamulaykum hopefully, you are well by the grace of almighty ALLAH. I have completed my bachelor's recently. I believe that you don't need to be very good at something, You only need to be enthusiastic about it that will be enough to reach your goal.    </p>
+            <p>
+            <ul>
+              <li>Dhaka, Bangladesh</li>
+              <li>+8801994399001</li>
+              <li>mmohiuddin172203@bscseuiu.ac.bd</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelor of science in Computer Science &amp; Engineering</h4>
+            <h5>2017 - 2021</h5>
+            <p>United Internationla University</p>
+          </div>
+          <div class="resume-item">
+            <h4>HSC</h4>
+            <h5>2016</h5>
+            <p>Bhola Government College</p>
+          </div>
+          <div class="resume-item">
+            <h4>SSC</h4>
+            <h5>2014</h5>
+            <p>Bhola Government School</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Content Writer</h4>
+            <h5>2018 - 2020</h5>
+            <p>Freelance, Dhaka</p>
+            <p>
+            <ul>
+             <li></li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Web Development</h4>
+            <h5>2021 - Present</h5>
+            <p>Freelance</p>
+            <p>
+            <ul>
+              <li></li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+
+  <!-- ======= skill Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>My Skills</p>
+      </div>
+      <div id='holder'></div>
+
+      <div class="skills container">
+
+        <div class="section-title" style="padding-top: 100px;">
+          <h2>Skills</h2>
+        </div>
+  
+        <div class="row skills-content">
+  
+          <div class="col-lg-6">
+  
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Django <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Selenium <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-6">
+  
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">MySQL <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">Figma <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MKDocs <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">Jira <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+            <div class="progress">
+              <span class="skill">Bootstrap <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div><!-- End Skills -->
+
+      </div>
+
+    </div>
+  </section><!-- End skill Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">UI/UX</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>word 04 bapta, Bhola, Bangladesh</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>mmohiuddin172203@bscse.uiu.ac.bd</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+8801994399001</p>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+
+       
+        
+        <div class="heade">
+
+          <!--Content before waves-->
+          
+          
+          <!--Waves Container-->
+          <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(53, 232, 136, 0.7)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(53, 232, 136, 0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="9" fill="rgba(53, 232, 136, 0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="15" fill="rgb(53, 232, 136)" />
+          </g>
+          </svg>
+          </div>
+          <!--Waves end-->
+          
+          </div>
+          <!--Header ends-->
+          
+          <!--Content starts-->
+          <div class="con fle">
+          <p>Designed by : Muhammad</p>
+          </div>
+          <!--Content ends-->
+        
+
+    
+          
+
+    </div>
+    
+  </section><!-- End Contact Section -->
+
+  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+  <script src='assets/js/jquery.svg3dtagcloud.min.js'></script>
+  <script>
+
+    $( document ).ready( function() {
+
+          var entries = [ 
+              
+              { label: 'HTML'},
+              { label: 'CSS'},
+              { label: 'Python'},
+              { label: 'Django'},
+              { label: 'Selenium'},
+              { label: 'JavaScript'},
+              { label: 'MySQL'},
+              { label: 'Github'},
+              { label: 'C'},
+              { label: 'Figma'},
+              { label: 'Arduino'},
+              { label: 'Proteous'},
+              { label: 'MKDocs'},
+              { label: 'Bootstrap'},
+              { label: 'Sementic UI'},
+              { label: 'Jira'}
+            
+
+
+          ];
+
+          var settings = {
+              entries: entries,
+              width: 480,
+              height: 480,
+              radius: '70%',
+              radiusMin: 75,
+              bgDraw: true,
+              bgColor: 'transparent',
+              opacityOver: 1.00,
+              opacityOut: 0.05,
+              opacitySpeed: 16,
+              fov: 800,
+              speed: 0.5,
+              fontFamily: 'Oswald, Arial, sans-serif',
+              fontSize: '25',
+              fontColor: '#35e888',
+              fontWeight: 'bold',//bold
+              fontStyle: 'normal',//italic 
+              fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+              tooltipFontFamily: 'Oswald, Arial, sans-serif',
+              tooltipFontSize: '11',
+              tooltipFontColor: '#fff',
+              tooltipFontWeight: 'normal',//bold
+              tooltipFontStyle: 'normal',//italic 
+              tooltipFontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+              tooltipFontToUpperCase: false,
+              tooltipTextAnchor: 'left',
+              tooltipDiffX: 0,
+              tooltipDiffY: 10
+          };
+          $( '#holder' ).svg3DTagCloud( settings );
+  } );     
+  </script>
+
+
+</body>
+
+</html>
