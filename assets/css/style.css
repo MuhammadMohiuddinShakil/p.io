@@ -1066,7 +1066,7 @@ section .container {
   position:relative;
   height:10vh;
   text-align:center;
-  background-color: rgb(53, 232, 136);
+  background-color: rgb(0, 0, 0);
 }
 
 /* Animation */
